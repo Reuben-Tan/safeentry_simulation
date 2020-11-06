@@ -44,6 +44,7 @@ https://www.youtube.com/watch?v=6--5d5WYeZU
 * Introduction of obstacles(might cause more jamming
 
 # Resources
+* [Herokuapp link](https://safeentry-sim.herokuapp.com/)
 * [Person flaticon link](https://www.flaticon.com/free-icon/user_1077114?term=person&page=1&position=1)
 * [Kenny's research](https://docs.google.com/document/d/11rHY3Rgq45yhccLuIj630wfZChR9RmL2GrleiEnf2hs/edit)
 
