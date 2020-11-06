@@ -10,12 +10,30 @@ With circuit breaker measuers, retail malls are forced to restrict their number 
 # To-do
 - [X] Add queueing system
 - [X] Add time dynamic
+
+
+
+
+
+
+### Lucas
+- [ ] Changing to the 'emergency dots' people (Lucas)
+- [ ] Adding multiple entrances (customers choose which is the shorter one)
+
+### Rehnsf
 - [ ] Add infection dynamics
+
+### Karan
 - [ ] Style up html/css so it doesn't look like nuno's lol
 - [ ] Add graphs and statistics
-- [ ] Add variable parameters
+
+### Kenny
+- [ ] Research and get the parameters (R_0, mall traffic as function of time, mall patrons behaviour patterns) from statistics
+- [ ] Add variable parameters into the model
+
+### Do later
+- [ ] Safe distancing ambassadors and asymptomatic/offenders
 - [ ] Model customers mall exploration habits (*is it essential?*)
-- [ ] Adding multiple entrances (customers choose which is the shorter one)
 
 # Research
 ##### Monitoring physical distancing for crowd management: Real-time trajectory and group analysis
