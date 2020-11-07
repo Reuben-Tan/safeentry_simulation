@@ -5,17 +5,32 @@ Modelling and simulating how safeentry could have adverse effects on the infecti
 With circuit breaker measuers, retail malls are forced to restrict their number of entrances to ensure all mall patrons have checked into the safeentry database. However, this has led to bottle neck at these entrances, which might be counter productive to the government’s efforts to maintain safe-distancing. Increase the number of safe entry points might take a toll on the resources of the safe distancing ambasaddors. Our project aims to find out how malls should optimise the number of entry points while working around the contraints to reduce the number of infections in a mall.
 
 > Cost function: Number of infected
+> 
 > Variables: number of safeentry points in a mall
 
 # To-do
 - [X] Add queueing system
 - [X] Add time dynamic
+
+
+### Lucas
+- [ ] Changing to the 'emergency dots' people (Lucas)
+- [ ] Adding multiple entrances (customers choose which is the shorter one)
+
+### Reuben
 - [ ] Add infection dynamics
+
+### Karan
 - [ ] Style up html/css so it doesn't look like nuno's lol
 - [ ] Add graphs and statistics
-- [ ] Add variable parameters
+
+### Kenny
+- [ ] Research and get the parameters (R_0, mall traffic as function of time, mall patrons behaviour patterns) from statistics
+- [ ] Add variable parameters into the model
+
+### Do later
+- [ ] Safe distancing ambassadors and asymptomatic/offenders
 - [ ] Model customers mall exploration habits (*is it essential?*)
-- [ ] Adding multiple entrances (customers choose which is the shorter one)
 
 # Research
 ##### Monitoring physical distancing for crowd management: Real-time trajectory and group analysis
