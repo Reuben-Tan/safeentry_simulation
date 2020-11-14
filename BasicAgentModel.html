@@ -7,6 +7,10 @@
     <script type="text/javascript" src="lib/d3.min.js"></script>
     <!-- custom styles for this application -->
     <link rel="stylesheet" href="styles/basicagentmodel.css" media="screen" />
+
+    <!-- Load in Chart.JS -->
+    <script src="https://cdn.jsdelivr.net/npm/chart.js@2.8.0"></script>
+    
   </head>
   <!-- Set class to official for more formal font; unofficial for informal font -->
   <body class="official bgColor0">
@@ -18,6 +22,12 @@
       version="1.1"
       onclick="toggleSimStep();"
     ></svg>
+    <div class="chart-container" style="position: absolute; height:30vh; width:30vw">
+      <canvas id=myChart style="position:absolute; top:-310%; left:175%; width:0%; height:0%;"></canvas>
+      <canvas id=myChart2 style="position:absolute; top:-210%; left:175%; width:0%; height:0%;"></canvas>
+      <canvas id=myChart3 style="position:absolute; top:-110%; left:175%; width:0%; height:0%;"></canvas>  
+  </div>
+  <script src = "lib/PlotGraph.js"></script>
 
     <div id="title" style="position: absolute; bottom: 0; left: 0">
       Basic Agent-Based Model
