@@ -9,24 +9,18 @@ With circuit breaker measuers, retail malls are forced to restrict their number 
 > Variables: number of safeentry points in a mall
 
 # To-do
+### Done
 - [X] Add queueing system
 - [X] Add time dynamic
-
-
-### Lucas
-- [ ] Changing to the 'emergency dots' people (Lucas)
 - [X] Adding multiple entrances (customers choose which is the shorter one)
+- [X] Add graphs and statistics
+- [X] Add infection dynamics
 
-### Reuben
-- [ ] Add infection dynamics
-
-### Karan
-- [ ] Style up html/css so it doesn't look like nuno's lol
-- [ ] Add graphs and statistics
-
-### Kenny
+### Priority
+- [ ] Style up html/css so it doesn't look like Nuno's
 - [ ] Research and get the parameters (R_0, mall traffic as function of time, mall patrons behaviour patterns) from statistics
-- [ ] Add variable parameters into the model
+- [ ] Make parameters (e.g. probArrival) variable through inputs in html
+- [ ] Think of a way to incorporate multiple entrances (have two models/ have a different page)
 
 ### Do later
 - [ ] Safe distancing ambassadors and asymptomatic/offenders
