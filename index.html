@@ -192,13 +192,12 @@
                           <i class="mdi mdi-bug mr-3 icon-lg text-danger"></i>
                           <div class="d-flex flex-column justify-content-around">
                             <small class="mb-1 text-muted">Infection rate</small>
-                            <div class="dropdown">
+                            <div id='infectionrate' class="dropdown">
                               <a class="btn btn-secondary dropdown-toggle p-0 bg-transparent border-0 text-dark shadow-none font-weight-medium" href="#" role="button" id="dropdownMenuLinkA" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                                <h5 class="mb-0 d-inline-block">Slow</h5>
+                                <h5 class="mb-0 d-inline-block">Low</h5>
                               </a>
                               <div class="dropdown-menu" aria-labelledby="dropdownMenuLinkA">
-                                <a class="dropdown-item" href="#">Medium</a>
-                                <a class="dropdown-item" href="#">Fast</a>
+                                <a class="dropdown-item" href="#">High</a>
                               </div>
                             </div>
                           </div>
@@ -229,7 +228,8 @@
             <div class="col-md-12 grid-margin stretch-card">
               <div class="card">
                 <div class="card-body">
-                  <p class="card-title">Simulator</p>
+
+                  <span class="card-title" style="padding-right: 50px">Simulator</span>
                   <input id='startsim' class="btn btn-primary" type="button" value="Start Simulation" onclick="toggleSimStep()">
                   <svg
                   id="surface"
