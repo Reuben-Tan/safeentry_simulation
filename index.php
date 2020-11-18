@@ -1,1 +1,1 @@
-<?php header( 'Location: /BasicAgentModel.html' ) ;  ?>
+<?php header( 'Location: /index.html' ) ;  ?>
