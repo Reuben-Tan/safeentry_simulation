@@ -15,12 +15,15 @@ With circuit breaker measuers, retail malls are forced to restrict their number 
 - [X] Adding multiple entrances (customers choose which is the shorter one)
 - [X] Add graphs and statistics
 - [X] Add infection dynamics
+- [X] Style up html/css
+- [X] Make parameters (e.g. probArrival) variable through inputs in html
+- [X] Think of a way to incorporate multiple entrances (have two models/ have a different page)
+
 
 ### Priority
-- [ ] Style up html/css so it doesn't look like Nuno's
 - [ ] Research and get the parameters (R_0, mall traffic as function of time, mall patrons behaviour patterns) from statistics
-- [ ] Make parameters (e.g. probArrival) variable through inputs in html
-- [ ] Think of a way to incorporate multiple entrances (have two models/ have a different page)
+- [ ] Implement dijkstra's algorithm to model customers moving around mall
+- [ ] Sort out lag and improve algorithm
 
 ### Do later
 - [ ] Safe distancing ambassadors and asymptomatic/offenders
