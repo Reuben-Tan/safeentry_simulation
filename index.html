@@ -19,6 +19,8 @@
   <!-- endinject -->
   <link rel="shortcut icon" href="images/favicon.png" />
   <script src="https://cdn.jsdelivr.net/npm/chart.js@2.8.0"></script>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"></script> 
   <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.bundle.min.js" integrity="sha384-LtrjvnR4Twt/qOuYxE721u19sVFLVSA4hf/rRt6PrZTmiPltdZcI7q7PXQBYTKyf" crossorigin="anonymous"></script>
 </head>
 <body>
@@ -28,7 +30,6 @@
       <div class="navbar-brand-wrapper d-flex justify-content-center">
         <div class="navbar-brand-inner-wrapper d-flex justify-content-between align-items-center w-100">  
           <a class="navbar-brand brand-logo" href="index.html"><img src="https://www.safeentry.gov.sg/assets/main/se-logo-navbar-61ec9b7ef048fc4bf4c171032076e43042cd58c923a183e4504a7b7ed630bacf.svg" alt="logo"/></a>
-          <a class="navbar-brand brand-logo-mini" href="index.html"><img src="images/logo-mini.svg" alt="logo"/></a>
           <button class="navbar-toggler navbar-toggler align-self-center" type="button" data-toggle="minimize">
             <span class="mdi mdi-sort-variant"></span>
           </button>
@@ -163,12 +164,13 @@
                           <div class="d-flex flex-column justify-content-around">
                             <small class="mb-1 text-muted">Animation speed</small>
                             <div class="dropdown">
-                              <a class="btn btn-secondary dropdown-toggle p-0 bg-transparent border-0 text-dark shadow-none font-weight-medium" href="#" role="button" id="dropdownMenuLinkA" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                                <h5 class="mb-0 d-inline-block">Slow</h5>
+                              <a id='test2' class="btn btn-secondary dropdown-toggle p-0 bg-transparent border-0 text-dark shadow-none font-weight-medium" href="#" role="button" id="dropdownMenuLinkA" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                <h5 id='params-speed' class="mb-0 d-inline-block animationDelay">Medium</h5>
                               </a>
                               <div class="dropdown-menu" aria-labelledby="dropdownMenuLinkA">
-                                <a class="dropdown-item" href="#">Medium</a>
-                                <a class="dropdown-item" href="#">Fast</a>
+                                <span class="dropdown-item animationDelay" onclick="changeParams(this)">Slow</span>
+                                <span class="dropdown-item animationDelay" onclick="changeParams(this)">Medium</span>
+                                <span class="dropdown-item animationDelay" onclick='changeParams(this)'>Fast</span>
                               </div>
                             </div>
                           </div>
@@ -179,11 +181,12 @@
                             <small class="mb-1 text-muted">Traffic intensity</small>
                             <div class="dropdown">
                               <a class="btn btn-secondary dropdown-toggle p-0 bg-transparent border-0 text-dark shadow-none font-weight-medium" href="#" role="button" id="dropdownMenuLinkA" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                                <h5 class="mb-0 d-inline-block">Slow</h5>
+                                <h5 class="mb-0 d-inline-block arrivalFactor">Medium</h5>
                               </a>
                               <div class="dropdown-menu" aria-labelledby="dropdownMenuLinkA">
-                                <a class="dropdown-item" href="#">Medium</a>
-                                <a class="dropdown-item" href="#">Fast</a>
+                                <span class="dropdown-item arrivalFactor" onclick="changeParams(this)">Low</span>
+                                <span class="dropdown-item arrivalFactor" onclick="changeParams(this)">Medium</span>
+                                <span class="dropdown-item arrivalFactor" onclick="changeParams(this)">High</span>
                               </div>
                             </div>
                           </div>
@@ -194,10 +197,11 @@
                             <small class="mb-1 text-muted">Infection rate</small>
                             <div id='infectionrate' class="dropdown">
                               <a class="btn btn-secondary dropdown-toggle p-0 bg-transparent border-0 text-dark shadow-none font-weight-medium" href="#" role="button" id="dropdownMenuLinkA" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                                <h5 class="mb-0 d-inline-block">Low</h5>
+                                <h5 class="mb-0 d-inline-block probInfected">Low</h5>
                               </a>
                               <div class="dropdown-menu" aria-labelledby="dropdownMenuLinkA">
-                                <a class="dropdown-item" href="#">High</a>
+                                <a class="dropdown-item probInfected" onclick="changeParams(this)">Low</a>
+                                <a class="dropdown-item probInfected" onclick="changeParams(this)">High</a>
                               </div>
                             </div>
                           </div>
@@ -208,11 +212,11 @@
                             <small class="mb-1 text-muted">Number of entrances</small>
                             <div class="dropdown">
                               <a class="btn btn-secondary dropdown-toggle p-0 bg-transparent border-0 text-dark shadow-none font-weight-medium" href="#" role="button" id="dropdownMenuLinkA" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                                <h5 class="mb-0 d-inline-block">2</h5>
+                                <h5 class="mb-0 d-inline-block NumEntrance">2</h5>
                               </a>
                               <div class="dropdown-menu" aria-labelledby="dropdownMenuLinkA">
-                                <a class="dropdown-item" href="#">3</a>
-                                <a class="dropdown-item" href="#">4</a>
+                                <a class="dropdown-item NumEntrance" onclick="changeParams(this)">1</a>
+                                <a class="dropdown-item NumEntrance" onclick="changeParams(this)">2</a>
                               </div>
                             </div>
                           </div>
@@ -397,6 +401,7 @@
 
   <script type="text/javascript" src="lib/safeentry-simulation.js"></script>
   <script type="text/javascript" src="lib/PlotGraph.js"></script>
+
 
 </body>
 
