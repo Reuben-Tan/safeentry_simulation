@@ -25,6 +25,14 @@ With circuit breaker measuers, retail malls are forced to restrict their number 
 - [ ] Implement dijkstra's algorithm to model customers moving around mall
 - [ ] Sort out lag and improve algorithm
 
+### Submission
+- [ ] Title Page & textual description
+- [ ] Background readings
+- [ ] Project management - functional diagram
+- [ ] Data collection and manipulation
+- [ ] State diagram
+- [ ] 
+
 ### Do later
 - [ ] Safe distancing ambassadors and asymptomatic/offenders
 - [ ] Model customers mall exploration habits (*is it essential?*)
