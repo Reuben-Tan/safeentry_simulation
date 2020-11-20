@@ -105,16 +105,11 @@
                   </div>
                 </div>
                 <div class="d-flex justify-content-between align-items-end flex-wrap">
-                  <button type="button" class="btn btn-light bg-white btn-icon mr-3 d-none d-md-block ">
-                    <i class="mdi mdi-download text-muted"></i>
-                  </button>
+
                   <button type="button" class="btn btn-light bg-white btn-icon mr-3 mt-2 mt-xl-0">
-                    <i class="mdi mdi-clock-outline text-muted"></i>
+                    <i class="mdi mdi-restart text-info"></i>
                   </button>
-                  <button type="button" class="btn btn-light bg-white btn-icon mr-3 mt-2 mt-xl-0">
-                    <i class="mdi mdi-plus text-muted"></i>
-                  </button>
-                  <button class="btn btn-primary mt-2 mt-xl-0">Generate report</button>
+                  <button id='startsim' style="margin-bottom: 1px" class="btn btn-primary mt-2 mt-xl-0" type="button" value="Start" onclick="toggleSimStep()">Start simulation</button> 
                 </div>
               </div>
             </div>
@@ -234,7 +229,7 @@
                 <div class="card-body" style="min-height:300px;text-align:center">
                   <div class="row">
                     <span class="card-title" style="padding-right: 50px">Simulator</span>
-                    <input id='startsim' class="btn btn-primary" type="button" value="Start" onclick="toggleSimStep()">
+
                   </div>
                   <svg
                   id="surface"
