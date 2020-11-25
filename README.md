@@ -21,9 +21,13 @@ With circuit breaker measuers, retail malls are forced to restrict their number 
 
 
 ### Priority
-- [ ] Research and get the parameters (R_0, mall traffic as function of time, mall patrons behaviour patterns) from statistics
-- [ ] Implement dijkstra's algorithm to model customers moving around mall
-- [ ] Sort out lag and improve algorithm
+- [ ] Change infection model - cannot get infected unless came infected (Reuben)
+- [ ] Add profits and r = profit/infections ratio (Lucas)
+- [ ] Add customers making a purchase at shops (Reuben)
+- [ ] Add graph for r = profit/infections ratio (Kenny)
+- [ ] Add parameters that affect output (e.g. mall traffic limit)
+- [ ] Closing different shops - how odes it affect the value of r
+- [ ] Output analysis - r vs mall traffic limit, r vs shops closed (Karan)
 
 ### Submission
 - [ ] Title Page & textual description
