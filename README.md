@@ -18,15 +18,14 @@ With circuit breaker measuers, retail malls are forced to restrict their number 
 - [X] Style up html/css
 - [X] Make parameters (e.g. probArrival) variable through inputs in html
 - [X] Think of a way to incorporate multiple entrances (have two models/ have a different page)
-
+- [X] Change infection model - cannot get infected unless came infected (Reuben)
+- [X] Add profits and r = profit/infections ratio (Lucas)
+- [X] Add customers making a purchase at shops (Reuben)
+- [X] Add parameters that affect output (e.g. mall traffic limit)
 
 ### Priority
-- [ ] Change infection model - cannot get infected unless came infected (Reuben)
-- [ ] Add profits and r = profit/infections ratio (Lucas)
-- [ ] Add customers making a purchase at shops (Reuben)
 - [ ] Add graph for r = profit/infections ratio (Kenny)
-- [ ] Add parameters that affect output (e.g. mall traffic limit)
-- [ ] Closing different shops - how odes it affect the value of r
+- [ ] Closing different shops - how does it affect the value of r
 - [ ] Output analysis - r vs mall traffic limit, r vs shops closed (Karan)
 
 ### Submission
@@ -35,7 +34,6 @@ With circuit breaker measuers, retail malls are forced to restrict their number 
 - [ ] Project management - functional diagram
 - [ ] Data collection and manipulation
 - [ ] State diagram
-- [ ] 
 
 ### Do later
 - [ ] Safe distancing ambassadors and asymptomatic/offenders
