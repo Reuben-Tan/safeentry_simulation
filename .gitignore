@@ -2,3 +2,4 @@
 node_modules/*
 lib/safeentrysimulation.code-workspace
 test.html
+node_modules/.
