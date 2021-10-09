@@ -4,7 +4,9 @@
   "description": "",
   "main": "index.html",
   "dependencies": {
+    "@babel/core": "^7.15.8",
     "@mdi/font": "^3.6.95",
+    "babel-loader": "7",
     "bootstrap": "4.3.1",
     "chart.js": "^2.8.0",
     "datatables": "^1.10.18",
@@ -36,5 +38,6 @@
   "author": "bootstrapdash",
   "url": "http://www.bootstrapdash.com/",
   "copyright": "",
-  "license": ""
+  "license": "MIT",
+  "repository": "https://github.com/Reuben-Tan/safeentry_simulation.git"
 }

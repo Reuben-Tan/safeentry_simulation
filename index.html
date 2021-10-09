@@ -20,7 +20,7 @@
   <link rel="shortcut icon" href="https://www.flaticon.com/svg/static/icons/svg/1097/1097326.svg" />
   <script src="https://cdn.jsdelivr.net/npm/chart.js@2.8.0"></script>
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"></script> 
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"></script>
   <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.bundle.min.js" integrity="sha384-LtrjvnR4Twt/qOuYxE721u19sVFLVSA4hf/rRt6PrZTmiPltdZcI7q7PXQBYTKyf" crossorigin="anonymous"></script>
 </head>
 <body>
@@ -28,12 +28,12 @@
     <!-- partial:partials/_navbar.html -->
     <nav class="navbar col-lg-12 col-12 p-0 fixed-top d-flex flex-row">
       <div class="navbar-brand-wrapper d-flex justify-content-center">
-        <div class="navbar-brand-inner-wrapper d-flex justify-content-between align-items-center w-100">  
+        <div class="navbar-brand-inner-wrapper d-flex justify-content-between align-items-center w-100">
           <a class="navbar-brand brand-logo" href="index.html"><img src="https://www.safeentry.gov.sg/assets/main/se-logo-navbar-61ec9b7ef048fc4bf4c171032076e43042cd58c923a183e4504a7b7ed630bacf.svg" alt="logo"/></a>
           <button class="navbar-toggler navbar-toggler align-self-center" type="button" data-toggle="minimize">
             <span class="mdi mdi-sort-variant"></span>
           </button>
-        </div>  
+        </div>
       </div>
       <div class="navbar-menu-wrapper d-flex align-items-center justify-content-end">
         <ul class="navbar-nav mr-lg-4 w-100">
@@ -94,7 +94,7 @@
       <!-- partial -->
       <div class="main-panel">
         <div class="content-wrapper">
-          
+
           <div class="row">
             <div class="col-md-12 grid-margin">
               <div class="d-flex justify-content-between flex-wrap">
@@ -105,12 +105,12 @@
                   </div>
                 </div>
                 <div class="d-flex justify-content-between align-items-end flex-wrap">
-                  <button id='generatedata' style="margin-bottom: 1px" class="btn btn-warning mt-2 mr-3 mt-xl-0" type="button" value="Start" onclick="generateData()">Generate Data</button> 
+                  <button id='generatedata' style="margin-bottom: 1px" class="btn btn-warning mt-2 mr-3 mt-xl-0" type="button" value="Start" onclick="generateData()">Generate Data</button>
 
                   <button type="button" class="btn btn-light bg-white btn-icon mr-3 mt-2 mt-xl-0" onclick="redrawWindow()">
                     <i class="mdi mdi-restart text-info"></i>
                   </button>
-                  <button id='startsim' style="margin-bottom: 1px" class="btn btn-primary mt-2 mt-xl-0" type="button" value="Start" onclick="toggleSimStep()">Start simulation</button> 
+                  <button id='startsim' style="margin-bottom: 1px" class="btn btn-primary mt-2 mt-xl-0" type="button" value="Start" onclick="toggleSimStep()">Start simulation</button>
                 </div>
               </div>
             </div>
@@ -339,7 +339,7 @@
               <div class="card">
                 <div class="card-body">
                   <p class="card-title">Profits/Infection Ratio</p>
-                <div id="total-sales-chart-legend"></div>                  
+                <div id="total-sales-chart-legend"></div>
               </div>
               <canvas id="myChart4"></canvas>
             </div>
@@ -349,7 +349,7 @@
               <div class="card">
                 <div class="card-body">
                   <p class="card-title">RO Value</p>
-                  <div id="total-sales-chart-legend"></div>                  
+                  <div id="total-sales-chart-legend"></div>
                 </div>
                 <canvas id="myChart3"></canvas>
               </div>
@@ -357,7 +357,7 @@
             <div class="col-md-6 grid-margin stretch-card">
               <div class="card">
                 <div class="card-body">
-                  <p class="card-title">Percentage of infected</p>                
+                  <p class="card-title">Percentage of infected</p>
                 </div>
                 <canvas id="myChart2"></canvas>
               </div>
@@ -365,7 +365,7 @@
             <div class="col-md-6 grid-margin stretch-card">
               <div class="card">
                 <div class="card-body">
-                  <p class="card-title">Infections over Time</p>             
+                  <p class="card-title">Infections over Time</p>
                 </div>
                 <canvas id="myChart"></canvas>
               </div>
@@ -414,6 +414,9 @@
   <script type="text/javascript" src="lib/customerStates/shopping.js"></script>
   <script type="text/javascript" src="lib/main.js"></script>
   <script type="text/javascript" src="lib/PlotGraph.js"></script>
+
+  <script type="text/javascript" src="dist/main.js"></script>
+
 
 
 
